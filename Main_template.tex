@@ -1,0 +1,161 @@
+% Packages & Document Configurations
+
+\documentclass[twocolumn]{NobArticle}
+\usepackage{graphicx}% Include figure files
+\usepackage[table]{xcolor}% for \textcolor{red}{...} revision markup and \rowcolor
+
+% \usepackage{lipsum}
+% NOTE: if NobArticle does not already load biblatex / addbibresource elsewhere,
+% keep the line below; if it does, delete it to avoid a duplicate resource.
+\addbibresource{references.bib}
+
+%\usepackage{natbib}
+\runninghead{Author Name -- Proposal Title}
+%\footertext{Proposal for }
+
+% Title
+\title{Proposal Title Goes Here}
+
+% Authors
+\author{
+    Author Name, Research Group, Laboratory, Institution
+}
+
+% Affiliations
+% \date{
+%     Laboratory, Institution
+% }
+
+% remove date
+%\renewcommand{\maketitlehookc}{%
+%\date{}%
+%\vspace{-2\baselineskip}
+%}
+% Abstract
+\renewcommand{\maketitlehookd}{%
+
+% \end{abstract}
+}
+
+\begin{document}
+
+\small
+\maketitle
+
+% Introduction
+\section{Motivation and State-of-the-art}
+% Very short introduction to the topic: motivation, current state-of-the-art,
+% and why it matters. Close the section with a clearly stated research question,
+% and a short paragraph on the proposed approach.
+
+Placeholder text describing the background and motivation of the proposed research.
+
+\begin{figure}[h!]
+\noindent\fbox{\begin{minipage}{0.465\textwidth}
+\small \textbf{Research question}: State the central research question here.
+\end{minipage}}
+\end{figure}
+
+Placeholder paragraph outlining the proposed approach to answering the research question above.
+
+\section{Research Objectives and Work Packages}
+
+%\subsection{Research premises}
+% General outline for the research project (1-2 paragraphs): main aim,
+% key objectives, and how the work packages below achieve them.
+
+Placeholder text describing the primary aim and objectives of the research, and how they will be achieved through the work packages (WPs) below.
+
+\begin{figure*}[t!]
+% \includegraphics[scale=1]{Figures/placeholder-figure1.pdf}
+\centering
+\vspace{-1.5mm}
+\caption{\label{fig:placeholder1} Placeholder caption describing the concept figure for the work packages.}
+\vspace{-3.5mm} % Reduce white space above the table
+\end{figure*}
+
+%\subsection{Work Packages}
+\noindent \underline{\textbf{WP1}}: \textbf{\textit{Work Package 1 Title.}}
+Placeholder paragraph describing the goals, methods, and expected outcomes of WP1. This goal is achieved by completing the following tasks:
+
+\textbf{T1.1} Placeholder description of task 1.1.
+
+\textbf{T1.2} Placeholder description of task 1.2.
+
+\textbf{T1.3} Placeholder description of task 1.3.
+
+\begin{figure}[h!]
+% \includegraphics[scale=1]{Figures/placeholder-figure2.pdf}
+\centering
+\vspace{-1.5mm}
+\caption{\label{fig:placeholder2} Placeholder caption describing a concept figure for WP2/WP3.}
+\end{figure}
+
+\noindent \underline{\textbf{WP2}}: \textbf{\textit{Work Package 2 Title.}}
+Placeholder paragraph describing the goals, methods, and expected outcomes of WP2.
+
+\textbf{T2.1} Placeholder description of task 2.1.
+
+\textbf{T2.2} Placeholder description of task 2.2.
+
+\textbf{T2.3} Placeholder description of task 2.3.
+
+\begin{figure}[h!]
+% \includegraphics[scale=0.34]{Figures/placeholder-figure3.png}
+\centering
+\vspace{-1.5mm}
+\caption{\label{fig:placeholder3} Placeholder caption describing a concept figure for WP3.}
+\end{figure}
+
+\noindent \underline{\textbf{WP3}}: \textbf{\textit{Work Package 3 Title.}}
+Placeholder paragraph describing the goals, methods, and expected outcomes of WP3.
+
+\textbf{T3.1} Placeholder description of task 3.1.
+
+\textbf{T3.2} Placeholder description of task 3.2.
+
+\textbf{T3.3} Placeholder description of task 3.3.
+
+\textbf{T3.4} Placeholder description of task 3.4 (optional additional task).
+
+\section{Environment, Schedule and Funding}
+\subsection{Research environment and collaborations}
+Placeholder paragraph describing the research group(s), host laboratory/institution, and available infrastructure and equipment.
+
+Placeholder paragraph describing collaborating groups/institutions relevant to the project.
+
+\subsection{Scientific impact}
+Placeholder paragraph describing the expected scientific impact and significance of the proposed research.
+
+\subsection{Schedule and current stage}
+
+Placeholder paragraph describing the planned start date, project duration, and expected completion/defense date. A detailed schedule for the project is shown in Table~\ref{tab:work_plan}.
+
+\newcommand{\PLH}{{\mkern-7mu\times\mkern-7mu}}
+\begin{table*}[t!]
+    \centering
+    %\specialrule{.1em}{0pt}{0pt}
+    \caption{Work plan and schedule for the proposed project.}
+    \begin{tabular}{|c|c|a|a|c|c|c|c|c|c|c|c|c|c|c|c|a|a|}
+        \hline
+        \textbf{WP} & \textbf{Tasks} & \multicolumn{4}{|c|}{\textbf{Year 1}} & \multicolumn{4}{|c|}{\textbf{Year 2}} & \multicolumn{4}{|c|}{\textbf{Year 3}} & \multicolumn{4}{|c|}{\textbf{Year 4}} \\ \specialrule{.15em}{0pt}{0pt}
+        & Study modules &  &  &  & $\PLH$ & $\PLH$ & $\PLH$ & $\PLH$ & $\PLH$ &  &  &  & &  &  & &  \\ \specialrule{.1em}{0pt}{0pt}
+        \textbf{T1.1} & Task 1.1 description & &  & $\PLH$ &$\PLH$ &$\PLH$ & &  &  &  &  &  & &  &  & & \\ \hline
+        \textbf{T1.2} & Task 1.2 description &  &  &  &   & $\PLH$ & $\PLH$  &$\PLH$ &   &  &  &  & &  &  & & \\ \hline
+        \textbf{T1.3} & Task 1.3 description  &  &  &  &  & & $\PLH$ &$\PLH$ &  &  &  &  & &  &  & & \\ \specialrule{.1em}{0pt}{0pt}
+         \textbf{T2.1} & Task 2.1 description &  &  &  & & &  & & $\PLH$  & $\PLH$  & $\PLH$  &  & &  &  & & \\ \hline
+         \textbf{T2.2} & Task 2.2 description  &  &  &  &  &  &  & &  &$\PLH$  &  $\PLH$&  & &  &  & & \\ \hline
+        \textbf{T2.3} & Task 2.3 description &  &  &  &  &  &  & & & & $\PLH$ & $\PLH$ &  &  &  & & \\ \specialrule{.1em}{0pt}{0pt}
+        \textbf{T3.1} & Task 3.1 description &  &  &  &  &  &  &  &  & &  & $\PLH$ & $\PLH$&$\PLH$  &  & & \\ \hline
+        \textbf{T3.2} & Task 3.2 description   &  &  &  &  &  &  &  &  & &  & $\PLH$ & $\PLH$& $\PLH$ &  & & \\ \hline
+        \textbf{T3.3} & Task 3.3 description &  &  &  &  &  &  &  &  &  &  &  &$\PLH$ & $\PLH$ & $\PLH$ & & \\ \hline
+        \textbf{T3.4} & Task 3.4 description (optional) &  &  &  &  &  &  &  &  &  &  &  &$\PLH$ & $\PLH$ & $\PLH$ & & \\
+        \specialrule{.1em}{0pt}{0pt}
+        & Writing and Defense of Thesis & & & & & &  &  &  & &  &  &  & $\PLH$ & $\PLH$ & & \\ \hline
+    \end{tabular}
+    \label{tab:work_plan}
+\end{table*}
+
+\printbibliography
+%\bibliography{main}% Produces the bibliography via BibTeX.
+\end{document}
