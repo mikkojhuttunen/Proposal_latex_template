@@ -219,8 +219,8 @@
 \setlength\bibhang{0pt} % Remove indentation
 \renewcommand*{\bibfont}{\footnotesize} % Change references font size
 %\addbibresource{Bibliography/Bibliography.bib} % Reference document
-\addbibresource{Bibliography/Integrated_photonics_refs.bib} % Reference document
-\addbibresource{Bibliography/New_refs.bib} % Reference 
+%\addbibresource{Bibliography/Integrated_photonics_refs.bib} % Reference document
+%\addbibresource{Bibliography/New_refs.bib} % Reference 
 
 % Highlight both Author and Year in the citations
 \ExecuteBibliographyOptions{maxcitenames=1}
